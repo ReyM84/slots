@@ -20,23 +20,14 @@ var icons =
      $($('#reel3').html('<img src = "' + icons[reel3-1] + '">'));
 
      
-$('button').on('click', function (evt) {
-    spin();
-});
 
-
-
-
-
-
-
-
-
-}
+};
 
 $('button').on('click', function (evt) {
     spin();
 });
+
+
 
 
 
