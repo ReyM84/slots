@@ -11,11 +11,16 @@ var icons =
 ["images/71.png",
  "images/banana1.png",
  "images/ba1.png",
- "images/cherry1.png" ]
+ "images/cherry1.png",
+ "images/watermelon.png",
+ "images/prune.png",
+ "images/lemon.png",
+ "images/orange.png",
+ "images/winner.png" ]
 
-     reel1 = Math.floor(Math.random() * (4-1+1) +1);
-     reel2 = Math.floor(Math.random() * (4-1+1) +1);
-     reel3 = Math.floor(Math.random() * (4-1+1) +1);
+     reel1 = Math.floor(Math.random() * (9-1+1) +1);
+     reel2 = Math.floor(Math.random() * (9-1+1) +1);
+     reel3 = Math.floor(Math.random() * (9-1+1) +1);
 
      
 
@@ -24,9 +29,9 @@ var icons =
      $($('#reel3').html('<img src = "' + icons[reel3-1] + '">'));
 
      if ( reel1 === reel2 || reel2 === reel3 || reel1 === reel3){
-         credit = credit + 10
+         credit = credit + 6
      } if ( reel1 === reel2 && reel2 === reel3 ) {
-         credit = credit + 40
+         credit = credit + 15
      } else {
          credit = credit - 1
      };
