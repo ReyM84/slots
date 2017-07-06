@@ -53,13 +53,21 @@ h1 {
 }
 .btn-primary {
 	position: absolute;
-	margin: 99px 0 0 225px;
 	display: flex;
 	height: 41px;
 	width: 130px;
-	background-image: url('../images/spin.png');
 	border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: purple;
 }
+
+#spinbtn {
+	background-image: url('../images/spin.png');
+    margin: 105px 0 0 225px;
+
+}
+
 body {
 	background-color: #363636;
     background-image: url('../images/casino.jpg');
@@ -82,4 +90,14 @@ body {
 	background-color: black;
 	font-size: 40px;
     text-align: center;
+}
+
+#maxbtn {
+	margin: 105px 0 0 500px;
+    border-radius: 1px;
+}
+
+#minbtn {
+	margin: 105px 0 0 700px;
+    border-radius: 1px;
 }
