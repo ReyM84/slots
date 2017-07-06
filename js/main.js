@@ -29,10 +29,12 @@ var icons =
      $($('#reel3').html('<img src = "' + icons[reel3-1] + '">'));
 
 
-    if ( reel1 === reel2 && reel2 === reel3 && reel1 === 8 ) {
+    if ( reel1 === reel2 && reel2 === reel3 && reel1 === 9 ) {
         credit += 100
+     } else if ( reel1 === reel2 && reel2 === reel3 && reel1 === 3) {
+         credit += 50
      } else if ( reel1 === reel2 && reel2 === reel3 ) {
-         credit += 15
+         credit += 30    
      } else if ( reel1 === reel2 || reel2 === reel3 || reel1 === reel3){
          credit += 5
      } else {
