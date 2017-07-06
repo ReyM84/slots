@@ -62,6 +62,7 @@ h1 {
 }
 body {
 	background-color: #363636;
+    background-image: url('../images/casino.jpg');
 }
 #score {
 	height: 35px;

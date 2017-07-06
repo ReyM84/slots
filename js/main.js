@@ -28,12 +28,15 @@ var icons =
      $($('#reel2').html('<img src = "' + icons[reel2-1] + '">'));
      $($('#reel3').html('<img src = "' + icons[reel3-1] + '">'));
 
-     if ( reel1 === reel2 || reel2 === reel3 || reel1 === reel3){
-         credit = credit + 6
-     } if ( reel1 === reel2 && reel2 === reel3 ) {
-         credit = credit + 15
+
+    if ( reel1 === reel2 && reel2 === reel3 && reel1 === 8 ) {
+        credit += 100
+     } else if ( reel1 === reel2 && reel2 === reel3 ) {
+         credit += 15
+     } else if ( reel1 === reel2 || reel2 === reel3 || reel1 === reel3){
+         credit += 5
      } else {
-         credit = credit - 1
+         credit -= 2
      };
 
 $('#score').html(credit)
