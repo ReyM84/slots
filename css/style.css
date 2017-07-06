@@ -16,7 +16,6 @@ img {
 	height: 180px;
 	width: 170px;
 	margin: 215px -12px 20px -5px;
-	/*background-image: url('/Users/reymarquez/Documents/WDI/scratch/slots/images/cherry.png');*/
 }
 #reel2 {
 	font-size: 50px;
@@ -27,7 +26,6 @@ img {
 	height: 180px;
 	width: 189px;
 	margin: 0 18px 20px 23px;
-	/*background-image: url('/Users/reymarquez/Documents/WDI/scratch/slots/images/7.png');*/
 }
 #reel3 {
 	font-size: 50px;
@@ -38,7 +36,6 @@ img {
 	height: 180px;
 	width: 174px;
 	margin: 0 0 20px 1px;
-	/*background-image: url('/Users/reymarquez/Documents/WDI/scratch/slots/images/banana.png');*/
 }
 h1 {
 	text-align: center;
@@ -57,20 +54,21 @@ h1 {
 	height: 41px;
 	width: 130px;
 	border-radius: 20px;
-    text-align: center;
-    font-size: 24px;
-    background-color: purple;
+	text-align: center;
+	font-size: 24px;
+	background-color: #B700FF;
+	border: none;
 }
-
+.btn-primary:hover {
+	background-color: black;
+}
 #spinbtn {
 	background-image: url('../images/spin.png');
-    margin: 105px 0 0 225px;
-
+	margin: 105px 0 0 225px;
 }
-
 body {
 	background-color: #363636;
-    background-image: url('../images/casino.jpg');
+	background-image: url('../images/casino.jpg');
 }
 #score {
 	height: 35px;
@@ -80,24 +78,25 @@ body {
 	margin: -405px 0 0 953px;
 	text-align: -webkit-right;
 	font-size: 29px;
-    font-family: 'Keania One', cursive;
+	font-family: 'Keania One', cursive;
 }
-
-
 #gameover {
 	margin: 210px 590px 0 430px;
 	color: red;
 	background-color: black;
 	font-size: 40px;
-    text-align: center;
+	text-align: center;
 }
-
 #maxbtn {
-	margin: 105px 0 0 500px;
-    border-radius: 1px;
+	margin: 105px 0 0 820px;
+	border-radius: 15px;
+	width: 125px;
 }
-
 #minbtn {
-	margin: 105px 0 0 700px;
-    border-radius: 1px;
+	margin: 105px 0 0 520px;
+	border-radius: 15px;
+	width: 117px;
+}
+span {
+	margin: -8px 0 0 0;
 }
