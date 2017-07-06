@@ -4,6 +4,7 @@ function spin (){
     var reel1;
     var reel2;
     var reel3;
+    var credit = 10;
 
 var icons = 
 ["/Users/reymarquez/Documents/WDI/scratch/slots/images/71.png",
@@ -19,7 +20,13 @@ var icons =
      $($('#reel2').html('<img src = "' + icons[reel2-1] + '">'));
      $($('#reel3').html('<img src = "' + icons[reel3-1] + '">'));
 
-     
+     if ( reel1 === reel2 || reel2 === reel3 || reel1 === reel3){
+         return (credit + 10)
+     } else if ( reel1 === reel2 && reel2 === reel3 ) {
+         return (credit + 50)
+     } else {
+         return (credit - 1)
+     }
 
 };
 
