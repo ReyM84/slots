@@ -1,11 +1,11 @@
-var credit = 10;
+var credit = 20;
 $(function() {
 
 function spin (){
     var reel1;
     var reel2;
     var reel3;
-    
+ 
 
 var icons = 
 ["images/71.png",
@@ -36,7 +36,14 @@ var icons =
      } else if ( reel1 === reel2 || reel2 === reel3 || reel1 === reel3){
          credit += 5
      } else {
-         credit -= 2
+         credit -= 5
+     };
+
+     if ( credit < 1){
+         credit = 20, 
+         $('#gameover').html('GAME OVER')
+     } else {
+         $('#gameover').html('')
      };
 
 $('#score').html(credit)
@@ -45,7 +52,10 @@ $('#score').html(credit)
 
 $('button').on('click', function (evt) {
     spin();
+    
+
 });
+
 
 
 

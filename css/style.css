@@ -68,9 +68,18 @@ body {
 	height: 35px;
 	width: 85px;
 	background-color: black;
-	color: darkgoldenrod;
+	color: white;
 	margin: -405px 0 0 953px;
 	text-align: -webkit-right;
 	font-size: 29px;
     font-family: 'Keania One', cursive;
+}
+
+
+#gameover {
+	margin: 210px 590px 0 430px;
+	color: red;
+	background-color: black;
+	font-size: 40px;
+    text-align: center;
 }
