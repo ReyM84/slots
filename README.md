@@ -2,7 +2,7 @@
 ## Instructions:
 1. Starting credit pool will be 20 credits.
 2. Player will have the option of betting 1, 5, or 10 credits. 
-![button] (https://i.imgur.com/DwNIN1w.png)
+![button](https://i.imgur.com/DwNIN1w.png)
 3. The reels will change images.
 4. 0 matching reels will result in credits deducted. 2 and 3 matching icons will have appropriate values given by amount initially bet.
 ![Match](https://i.imgur.com/4YdxX5B.png)
