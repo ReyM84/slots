@@ -8,3 +8,19 @@
 ![Match](https://i.imgur.com/4YdxX5B.png)
 5. Game over is displayed when credits reach 0.
 ![game](https://i.imgur.com/fPA4z2s.png)
+
+## Technologies:
+* HTML 5
+* CSS
+* Javascript
+* JQuery
+* Bootstrap
+
+## Getting Started:
+This game can be played at [Fruit Loot Slots	](https://twidget84.github.io/slots/)
+
+## Planned updates:
+* Different values for all matches
+* Spinning animation for reels
+
+

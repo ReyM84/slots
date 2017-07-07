@@ -40,4 +40,8 @@ $(function() {
 	$('#maxbtn').on('click', function(evt) {
 		spin(400, 100, 50, 25, 10);
 	});
+var tone = new Audio('https://freesound.org/people/PaulMorek/sounds/330052/download/330052__paulmorek__beep-05-positive.wav');
+$('.btn-primary').click( function()  {
+    tone.play();
+});
 });
