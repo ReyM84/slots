@@ -6,9 +6,9 @@ $(function() {
 	var reel3;
 
 	function spin(a, b, c, d, e) {
-		reel1 = Math.floor(Math.random() * (9 - 1 + 1) + 1);
-		reel2 = Math.floor(Math.random() * (9 - 1 + 1) + 1);
-		reel3 = Math.floor(Math.random() * (9 - 1 + 1) + 1);
+		reel1 = Math.floor(Math.random() * 9 + 1);
+		reel2 = Math.floor(Math.random() * 9 + 1);
+		reel3 = Math.floor(Math.random() * 9 + 1);
 		$($('#reel1').html('<img src = "' + icons[reel1 - 1] + '">'));
 		$($('#reel2').html('<img src = "' + icons[reel2 - 1] + '">'));
 		$($('#reel3').html('<img src = "' + icons[reel3 - 1] + '">'));
