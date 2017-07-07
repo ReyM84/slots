@@ -32,13 +32,13 @@ $(function() {
 		}
 	};
 	$('#minbtn').on('click', function(evt) {
-		spin(20, 15, 10, 5, 1);
+		spin(500, 25, 10, 5, 1);
 	});
 	$('#spinbtn').on('click', function(evt) {
-		spin(100, 50, 30, 10, 5);
+		spin(1000, 50, 30, 10, 5);
 	});
 	$('#maxbtn').on('click', function(evt) {
-		spin(400, 100, 50, 25, 10);
+		spin(4000, 100, 50, 25, 10);
 	});
 var tone = new Audio('https://freesound.org/people/sapht/sounds/61234/download/61234__sapht__snes-startup.wav');
 $('.btn-primary').click( function()  {
