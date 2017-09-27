@@ -17,7 +17,7 @@
 * Bootstrap
 
 ## Getting Started:
-This game can be played at [Fruit Loot Slots	](https://twidget84.github.io/slots/)
+This game can be played at [Fruit Loot Slots	](https://ReyM84.github.io/slots/)
 
 ## Planned updates:
 * Different values for all matches
