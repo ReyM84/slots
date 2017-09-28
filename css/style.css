@@ -41,12 +41,12 @@ img {
 	text-align: center;
 	font-size: 70px;
 	color: white;
-	width: 40%;
+	width: 600px;
 	height: 90px;
 	background-image: url('../images/banner.png');
 	position: absolute;
 	margin-left: 19%;
-	margin-top: 1%;
+	margin-top: 15px;
 }
 .btn-primary {
 	position: absolute;
@@ -93,11 +93,19 @@ body {
 	margin: 105px 0 0 820px;
 	border-radius: 15px;
 	width: 125px;
+	background-image: url('http://www.gansdigital.com/wp-content/uploads/2017/03/11-1.jpg');
+	display: table-cell; 
+	vertical-align: top;
+	line-height: 2px;
 }
 #minbtn {
 	margin: 105px 0 0 520px;
 	border-radius: 15px;
 	width: 117px;
+	background-image: url('http://www.gansdigital.com/wp-content/uploads/2017/03/11-1.jpg');
+	display: table-cell; 
+	vertical-align: top;
+	line-height: 2px;
 }
 
 .buttons {
